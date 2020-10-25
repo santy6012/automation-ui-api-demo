@@ -1,0 +1,508 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.example:automation-demo >---------------------
+[INFO] Building automation-demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ automation-demo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ automation-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ automation-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ automation-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ automation-demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to C:\Users\Santy\IdeaProjects\automation-demo\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ automation-demo ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ automation-demo ---
+[INFO] Building jar: C:\Users\Santy\IdeaProjects\automation-demo\target\automation-demo-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.22.1:integration-test (default) @ automation-demo ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+11:14:38.611 [main] INFO  n.t.c.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+11:14:38.642 [main] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: Pets storage stock
+11:14:38.689 [main] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: Customer order placement
+11:14:38.751 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be able to get available pets from store
+-------------------------------------------------------------------(pets-storage-stock;should-be-able-to-get-available-pets-from-store)
+11:14:48.220 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be able to add new pets into store
+-------------------------------------------------------------------(pets-storage-stock;should-be-able-to-add-new-pets-into-store)
+11:14:50.251 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be able to update existing pets into store
+-------------------------------------------------------------------(pets-storage-stock;should-be-able-to-update-existing-pets-into-store)
+11:14:52.047 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be able to delete existing pets into store
+-------------------------------------------------------------------(pets-storage-stock;should-be-able-to-delete-existing-pets-into-store)
+11:14:53.907 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be navigate to phone product categories
+-------------------------------------------------------------------(customer-order-placement;should-be-navigate-to-phone-product-categories)
+[INFO] Running Pets storage stock
+11:14:39.095 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am authorized to manage store resources
+11:14:39.595 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:39.595 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I make request to GET details for available pets
+11:14:39.673 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Make request: GET, available
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/findByStatus?status=available
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/findByStatus?status=available
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+11:14:48.032 [pool-1-thread-1] INFO  com.org.api.steplibrary.PetStockLibs - Status of pets: [available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available, available]
+11:14:48.032 [pool-1-thread-1] INFO  com.org.api.steplibrary.PetStockLibs - PetId selected for further transactions: 9193752909319139691
+11:14:48.032 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:48.032 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:48.048 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then I should be able to get pets with available status only
+11:14:48.048 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Verify get: available
+11:14:48.173 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:48.173 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:48.188 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be able to get available pets from store
+----------------------------------------------------------------------------
+11:14:48.235 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am authorized to manage store resources
+11:14:48.235 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:48.235 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I make request to CREATE a new pet
+11:14:48.266 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Make create request: CREATE, NA
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 0,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "cat",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+11:14:50.157 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:50.157 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:50.157 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then I should be able to create a new pet
+11:14:50.173 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Verify create
+11:14:50.219 [pool-1-thread-1] INFO  com.org.api.steplibrary.PetStockLibs - id: 9214027175840017638, name: cat, status: available
+11:14:50.235 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:50.235 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:50.235 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be able to add new pets into store
+----------------------------------------------------------------------------
+11:14:50.282 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am authorized to manage store resources
+11:14:50.298 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:50.298 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I make request to UPDATE status as sold for a pet
+11:14:50.313 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Make update: UPDATE, NA
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 9193752909319139691,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "sold"
+}
+11:14:51.907 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:51.907 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:51.907 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then pet status is changed to sold
+11:14:51.922 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Verify update: sold
+11:14:52.001 [pool-1-thread-1] INFO  com.org.api.steplibrary.PetStockLibs - id: 9193752909319139691, name: doggie, status: sold
+11:14:52.032 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:52.032 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:52.032 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be able to update existing pets into store
+----------------------------------------------------------------------------
+11:14:52.047 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am authorized to manage store resources
+11:14:52.157 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:52.157 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I make request to DELETE existing pet
+11:14:52.157 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Make delete: DELETE, NA
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/9193752909319139691
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+11:14:53.829 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:53.829 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:53.829 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then I should be able to delete the pet
+11:14:53.844 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Verify delete
+11:14:53.875 [pool-1-thread-1] INFO  com.org.api.steplibrary.PetStockLibs - code: 200, message: 9193752909319139691
+11:14:53.891 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:53.907 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:14:53.907 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be able to delete existing pets into store
+----------------------------------------------------------------------------
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.874 s - in Pets storage stock
+11:15:14.093 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be navigate to laptop product categories
+-------------------------------------------------------------------(customer-order-placement;should-be-navigate-to-laptop-product-categories)
+11:15:26.940 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be navigate to monitor product categories
+-------------------------------------------------------------------(customer-order-placement;should-be-navigate-to-monitor-product-categories)
+11:15:38.707 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Should be able to place order for laptop
+-------------------------------------------------------------------(customer-order-placement;should-be-able-to-place-order-for-laptop)
+
+8 Scenarios (8 passed)
+29 Steps (29 passed)
+1m47.835s
+
+[INFO] Running Customer order placement
+11:14:53.922 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am on home page
+11:14:54.094 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Launch website
+11:14:55.328 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:14:55.328 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--ignore-..., goog:chromeOptions: {args: [--start-maximized, --ignore-certificate-errors, --disable-popup-blocking, --disable-extentions, --incognito, --disable-infobars, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:15:07.741 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Web launch started...
+11:15:09.585 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:09.585 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is home page displayed
+11:15:10.598 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:10.615 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:10.618 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I click on PHONE side tab
+11:15:10.628 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Click on: PHONE
+11:15:10.888 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Navigation started...
+11:15:11.383 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:11.388 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:11.388 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then I should be able to see PHONE section
+11:15:11.393 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is navigation success: PHONE
+11:15:13.118 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:13.118 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:14.093 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be navigate to phone product categories
+----------------------------------------------------------------------------
+11:15:14.093 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am on home page
+11:15:14.109 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Launch website
+11:15:14.452 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:15:14.452 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--ignore-..., goog:chromeOptions: {args: [--start-maximized, --ignore-certificate-errors, --disable-popup-blocking, --disable-extentions, --incognito, --disable-infobars, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:15:23.034 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Web launch started...
+11:15:23.553 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:23.553 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is home page displayed
+11:15:24.204 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:24.204 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:24.214 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I click on LAPTOP side tab
+11:15:24.214 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Click on: LAPTOP
+11:15:24.454 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Navigation started...
+11:15:24.983 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:24.993 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:24.998 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then I should be able to see LAPTOP section
+11:15:25.003 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is navigation success: LAPTOP
+11:15:25.994 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:25.994 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:26.940 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be navigate to laptop product categories
+----------------------------------------------------------------------------
+11:15:26.956 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am on home page
+11:15:26.956 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Launch website
+11:15:27.284 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:15:27.284 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--ignore-..., goog:chromeOptions: {args: [--start-maximized, --ignore-certificate-errors, --disable-popup-blocking, --disable-extentions, --incognito, --disable-infobars, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:15:35.188 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Web launch started...
+11:15:35.660 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:35.660 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is home page displayed
+11:15:36.371 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:36.371 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:36.371 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I click on MONITOR side tab
+11:15:36.387 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Click on: MONITOR
+11:15:36.732 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Navigation started...
+11:15:37.265 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:37.265 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:37.270 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then I should be able to see MONITOR section
+11:15:37.275 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is navigation success: MONITOR
+11:15:37.780 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:37.790 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:38.707 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be navigate to monitor product categories
+----------------------------------------------------------------------------
+11:15:38.707 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given I am in LAPTOP section
+11:15:38.723 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Launch website
+11:15:39.066 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+11:15:39.066 [pool-1-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--ignore-..., goog:chromeOptions: {args: [--start-maximized, --ignore-certificate-errors, --disable-popup-blocking, --disable-extentions, --incognito, --disable-infobars, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+11:15:45.512 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Web launch started...
+11:15:46.016 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:46.016 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is home page displayed
+11:15:46.753 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:46.769 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Click on: LAPTOP
+11:15:47.039 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Navigation started...
+11:15:47.552 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:47.561 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Is navigation success: LAPTOP
+11:15:48.102 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:48.102 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:48.102 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When I add Sony vaio i5 in cart
+11:15:48.112 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Add to cart: Sony vaio i5
+11:15:58.039 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:58.039 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:58.039 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP And I click on LAPTOP side tab
+11:15:58.039 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Click on: LAPTOP
+11:15:58.364 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Navigation started...
+11:15:58.899 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:58.899 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:15:58.899 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP And I add Dell i7 8gb in cart
+11:15:58.909 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Add to cart: Dell i7 8gb
+11:16:08.435 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:08.443 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:08.443 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP And I go to CART
+11:16:08.451 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Go to page: CART
+11:16:09.596 [pool-1-thread-1] INFO  com.org.ui.pages.HomePage - Navigation success...
+11:16:10.447 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:10.447 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:10.452 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP And I delete Dell i7 8gb from cart
+11:16:10.452 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Delete cart item: Dell i7 8gb
+11:16:16.651 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:16.651 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:16.656 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP And I place order
+11:16:16.662 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Place order
+11:16:16.822 [pool-1-thread-1] INFO  com.org.ui.pages.CartPage - expected price: 790
+11:16:17.981 [pool-1-thread-1] INFO  com.org.ui.pages.ModelPopup - Purchase form visible...
+11:16:22.571 [pool-1-thread-1] INFO  com.org.ui.pages.ModelPopup - Order purchase info :Id: 2480024
+Amount: 790 USD
+Card Number: 1111111111111111
+Name: Test Client
+Date: 25/9/2020
+11:16:24.196 [pool-1-thread-1] INFO  com.org.ui.pages.CartPage - Purchase id: 2480024
+11:16:24.196 [pool-1-thread-1] INFO  com.org.ui.pages.CartPage - Purchase amount: 790
+11:16:24.796 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:24.796 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:24.796 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then purchase details should be correct
+11:16:24.812 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Verify purchase amount
+11:16:24.812 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:24.812 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+11:16:26.219 [pool-1-thread-1] INFO  n.t.c.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Should be able to place order for laptop
+----------------------------------------------------------------------------
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 92.297 s - in Customer order placement
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- serenity-maven-plugin:2.0.66:aggregate (serenity-reports) @ automation-demo ---
+[INFO] current_project.base.dir: C:\Users\Santy\IdeaProjects\automation-demo
+[INFO] Generating test results for 8 tests
+[INFO] Loading requirements from tag providers :[net.thucydides.core.requirements.FileSystemRequirementsTagProvider@24d7657b, net.thucydides.core.requirements.PackageRequirementsTagProvider@3245efdb]
+[INFO] LOADED REQUIREMENTS:
+REQUIREMENTS:
+    - capability : Api-features {id: Api-features, displayName: 'Api-features', path: api-features, parent: 'null'}
+        - feature : Pets storage stock {id: pets-storage-stock, displayName: 'Pets storage stock', path: api-features\pets-stock-cycle.feature, parent: 'Api-features'}
+    - capability : Ui-features {id: Ui-features, displayName: 'Ui-features', path: ui-features, parent: 'null'}
+        - feature : Customer order placement {id: customer-order-placement, displayName: 'Customer order placement', path: ui-features\cuctomer-shopping-journey.feature, parent: 'Ui-features'}
+
+[INFO] 4 requirements loaded after 3.3 secs
+[INFO] 4 related requirements found after 3.3 secs
+[INFO] Generating test outcome reports: false
+[INFO] Starting generating reports after 3.7 secs
+[INFO] Configured report threads: 20
+[INFO] Test results for 8 tests generated in 12 secs
+[INFO] ADDITIONAL REPORTS: [email]
+[INFO] GENERATING EMAIL REPORT
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.22.1:verify (default) @ automation-demo ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:42 min
+[INFO] Finished at: 2020-10-25T11:17:02+05:30
+[INFO] ------------------------------------------------------------------------
